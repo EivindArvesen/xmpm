@@ -1,31 +1,34 @@
-# xpm
-
+# xmpm
+<!--
 [![docs][docs-image]][docs-url]
 [![travis][travis-image]][travis-url]
 [![coveralls][coveralls-image]][coveralls-url]
 [![license][license-image]][license-url]
 [docs-image]: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
-[docs-url]: http://xpm.readthedocs.org
-[travis-image]: https://api.travis-ci.org/eivind88/xpm.svg
-[travis-url]: https://travis-ci.org/eivind88/xpm
-[coveralls-image]: https://coveralls.io/repos/eivind88/xpm/badge.svg?branch=master&service=github
-[coveralls-url]: https://coveralls.io/github/eivind88/xpm
+[docs-url]: http://xmpm.readthedocs.org
+[travis-image]: https://api.travis-ci.org/eivind88/xmpm.svg
+[travis-url]: https://travis-ci.org/eivind88/xmpm
+[coveralls-image]: https://coveralls.io/repos/eivind88/xmpm/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/eivind88/xmpm
 [license-image]: http://img.shields.io/badge/license-BSD3-brightgreen.svg
-[license-url]: https://github.com/eivind88/xpm/blob/master/LICENSE.txt
+[license-url]: https://github.com/eivind88/xmpm/blob/master/LICENSE.txt
 
 ![Icon](res/small_icon.png)
+-->
 
 ### WORK IN PROGRESS
 **This software is not yet finished, and might not be usable in its present state.**
 
-xpm is a cross-platform (meta-)package manager.
+xmpm is a cross-platform meta-package manager.
+
+It abstracts away package manager specific details (commands, etc.)
 
 ## Installation
-Binaries can be downloaded from the [releases](https://github.com/eivind88/xpm/releases) page.
+Binaries can be downloaded from the [releases](https://github.com/eivind88/xmpm/releases) page.
 
-As xpm is under rapid development, these may be outdated, and infrequently updated.
+As xmpm is under rapid development, these may be outdated, and infrequently updated.
 
-Alternatively, you can install xpm in one of the following ways:
+Alternatively, you can install xmpm in one of the following ways:
 
 <!-- Brew cask distribution -->
 
@@ -40,7 +43,7 @@ bash dev/setup.sh
 will check if the default Anaconda Python path exists, and download and install the latest [miniconda distribution](http://conda.pydata.org/miniconda.html) if it doesn't.
 The script then creates a [conda](http://conda.pydata.org/docs/) environment from `requirements.txt`.
 
-To start using the environment, activate it with `source activate xpm`.
+To start using the environment, activate it with `source activate xmpm`.
 When you're done, you can deactivate it with `source deactivate`.
 
 The automatic environment setup script should work for modern 64-bit versions of OS X, Linux and Windows (Cygwin).
@@ -114,8 +117,3 @@ to do the same.
 
 ## License
 This software is released under the terms of the 3-clause New BSD License. See the [license](LICENSE.txt) file for details.
-
-[PySide](https://wiki.qt.io/PySide) is released under [LGPL](https://www.gnu.org/copyleft/lesser.html).
-Its source code is available on [GitHub](https://github.com/PySide).
-
-The application icon is built upon [Spectacle Flat Icons](https://dribbble.com/shots/2075892-Spectacle-Flat-Icons) and [The Axe](https://dribbble.com/shots/1702501-The-Axe).

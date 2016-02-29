@@ -1,0 +1,14 @@
+{
+    "name": "homebrew",
+    "homepage": "http://www.url.tld",
+    "license": "MIT",
+    "bin": "brew",
+    "actions":
+    {
+        "install": "brew install",
+        "update": "brew update",
+        "upgrade": "brew upgrade",
+        "clean": "brew doctor && brew clean",
+        "remove": "brew uninstall"
+    }
+}

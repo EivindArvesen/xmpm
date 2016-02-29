@@ -19,16 +19,16 @@ def read(*filenames, **kwargs):
 requirements = read('requirements.txt')
 
 setup(
-    name='Xpm',
+    name='xmpm',
     version='0.1',
     # version=sandman.__version__,
     description='A platform-agnostic (meta-)package manager',
     author='Eivind Arvesen',
     author_email='eivind.arvesen@gmail.com',
-    url='https://github.com/eivind88/xpm',
+    url='https://github.com/eivind88/xmpm',
     install_requires= requirements,
     # install_requires= ['nose'],
-    packages=['xpm'],
+    packages=['xmpm'],
     test_suite = 'nose.collector',
     # scripts = ['go_foo.py'], # installs as script, must include shebang
     classifiers=[

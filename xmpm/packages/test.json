@@ -1,0 +1,76 @@
+{
+    "name": "Test Entry",
+    "author": "John Doe",
+    "description": "Lorem ipsum...",
+    "homepage": "http://www.url.tld",
+    "license": "GPLv2",
+    "sha256": "### HASH ###",
+    "platforms":
+    {
+        "linux":
+        {
+            "dependencies":
+            [
+                "bash"
+            ],
+            "methods":
+            {
+                "apt": {
+                    "ppa": "url",
+                    "package-name": "app"
+                }
+            }
+        },
+        "osx":
+        {
+            "dependencies":
+            [
+                "bash"
+            ],
+            "methods":
+            {
+                "homebrew":
+                {
+                    "tap": "custom",
+                    "package-name": "app"
+                },
+                "manual":
+                {
+                    "bash":
+                    [
+                        "sudo false",
+                        "echo 'done'"
+                    ]
+                }
+            }
+        },
+        "windows":
+        {
+            "dependencies":
+            [
+                "bash"
+            ],
+            "methods":
+            {
+                "Chocolatey":
+                {
+                    "package-name": "app"
+                }
+            }
+        },
+        "any":
+        {
+            "methods":
+            {
+                "github":
+                {
+                    "url": "http://www.url.tld"
+                },
+                "pip":
+                {
+                    "package-name": "app"
+                }
+            }
+        }
+    }
+}
